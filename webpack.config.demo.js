@@ -40,5 +40,8 @@ module.exports = {
         warnings: false
       }
     } )
-  ]
+  ], 
+  devServer: {
+    hot: true
+  }
 }

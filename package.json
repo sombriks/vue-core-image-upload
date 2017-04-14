@@ -31,10 +31,12 @@
     "vue-html-loader": "^1.2.3",
     "vue-loader": "^8.5.4",
     "vue-style-loader": "^1.0.0",
-    "webpack": "^1.13.2"
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.3"
   },
   "scripts": {
-    "test": "npm run test",
+    "test": "echo 'to be done'",
+    "dev": "webpack-dev-server --config ./webpack.config.demo.js --colors --progress --content-base ./demo",
     "build": "rm -f ./index.js && webpack --config ./webpack.config.js",
     "demo": "webpack --config ./webpack.config.demo.js"
   },
